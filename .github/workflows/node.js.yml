@@ -18,13 +18,12 @@ jobs:
       matrix:
         node-version: [10.x, 12.x, 14.x, 15.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-    steps:
-      env:
+    env:
       API_KEY: 1578e3fe93d684696852de1a81f90e5b
       BASE_URL: https://api.themoviedb.org/3/
       USER_TMDB: sanrogu
       PASSWORD_TMBD: S4nt14g0_2021
+    steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
