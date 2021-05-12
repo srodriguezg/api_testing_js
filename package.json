@@ -1,0 +1,27 @@
+{
+  "name": "api_testing_js",
+  "version": "1.0.0",
+  "description": "https://dev.to/atejedaautomation/api-automation-testing-con-javascript-o9g",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srodriguezg/api_testing_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srodriguezg/api_testing_js/issues"
+  },
+  "homepage": "https://github.com/srodriguezg/api_testing_js#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "dotenv": "^9.0.2",
+    "jasmine": "^3.7.0",
+    "jasmine-spec-reporter": "^7.0.0"
+  }
+}
