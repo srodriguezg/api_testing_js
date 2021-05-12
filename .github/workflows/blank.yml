@@ -22,11 +22,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      env:
-          API_KEY: 1578e3fe93d684696852de1a81f90e5b
-          BASE_URL: https://api.themoviedb.org/3/
-          USER_TMDB: sanrogu
-          PASSWORD_TMBD: S4nt14g0_2021
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
